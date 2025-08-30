@@ -1,0 +1,140 @@
+body {
+  padding-top: 90px;
+  padding-left: 160px;
+
+  background-image: linear-gradient(to bottom right, rgb(0, 245, 208), white, rgb(0, 245, 208), white);
+}
+
+div {
+  font-family: 'Times New Roman';
+  color: white;
+}
+
+.team-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 15px;
+
+  margin-bottom: 40px;
+}
+
+.the-board-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 15px;
+
+  margin-bottom: 40px;
+}
+
+.team-type {
+  display: block;
+
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 10px;
+
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial;
+  color: rgb(37, 37, 37);
+}
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 300px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  background-color: rgba(0,0,0,0.9);
+  border-radius: 3px;
+}
+
+.junior-team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 300px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  background-color: rgba(0,0,0,0.9);
+  border-radius: 3px;
+
+}
+
+.the-board-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 375px;
+
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  background-color: rgba(0,0,0,0.9);
+  border-radius: 3px;
+}
+
+.member-pic-container {
+  position: relative;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  width: 300px;
+}
+
+.member-pic {
+  display: block;
+
+  width: 100%;
+}
+
+.board-pic-container {
+  position: relative;
+
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  width: 375px;
+}
+
+.member-name {
+  position: absolute;
+  bottom: 0;
+
+  font-size: 20px;
+
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 7px;
+
+  border: solid;
+  border-width: 5px;
+  border-color: black;
+
+  background-color: rgb(18, 18, 18);
+
+  box-shadow: 
+  inset 1px 4px 8px rgb(45, 45, 45),
+  inset -1px -4px 8px rgb(45, 45, 45);
+}
